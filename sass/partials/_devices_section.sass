@@ -1,0 +1,66 @@
+.devices-section
+    background: url(../images/devices-bg.jpg) no-repeat
+    background-size: cover
+.devices-title
+    margin: 0
+    padding: 41px 0 52px
+    font-size: 43px
+    color: $yellow
+    text-transform: uppercase
+    text-align: center
+    font-family: $OpenSans
+    font-weight: 300
+    +medium
+        font-size: 39px
+    +tablet
+        font-size: 30px
+    +small
+        font-size: 25px
+.devices-inner
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+.devices-block
+    position: relative
+    margin-bottom: 60px
+.devices-image
+    margin: -12px 0px 0px 80px
+    width: 100%
+.circle
+    width: 150px
+    height: 150px
+    background: $yellow
+    border-radius: 50%
+    position: absolute
+    text-transform: uppercase
+    color: #fff
+    line-height: 150px
+    text-align: center
+    top: -48px
+    left: 36px
+    font-weight: 700
+    font-family: $PTsans
+    +small
+        height: 120px
+        width: 120px
+        line-height: 120px
+        font-size: 14px
+.devices-list
+    width: 81%
+    margin-left: 18%
+    margin-top: 5%
+    padding: 0
+.devices-list li
+    position: relative
+    list-style: none
+    color: #a9a9a7
+    font-size: 22px
+    padding: 0 0 15px 25px
+.devices-list li::before
+    content: ""
+    position: absolute
+    background: url(../images/dot-list.png) no-repeat
+    width: 14px
+    height: 14px
+    top: 9px
+    left: 0

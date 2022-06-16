@@ -1,0 +1,53 @@
+.blocks-section
+    background: url(../images/blocks-bg.jpg) no-repeat
+    background-size: cover
+    z-index: 1
+    position: relative
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.5)
+.blocks-inner
+    display: flex
+    flex-wrap: wrap
+.blocks
+    width: 32%
+    align-items: center
+    +small
+        width: 100%
+.blocks-title
+    font-size: 27px
+    text-transform: uppercase
+    margin: 0
+    text-align: center
+    margin: 49px 0 36px
+    +tablet
+        font-size: 23px
+    +phone
+        font-size: 14px
+.cloud-ic::before
+    content: ""
+    display: block
+    background: url(../images/icons-spite.png) -111px -113px no-repeat
+    width: 109px
+    height: 95px
+    margin: 0 auto
+.leaf-block
+    border-left: 1px solid #d2d2d2
+    border-right: 1px solid #d2d2d2
+    +tablet
+        border: none
+    +small
+        border-top: 1px solid #d2d2d2
+        border-bottom: 1px solid #d2d2d2
+.leaf-ic::before
+    content: ""
+    display: block
+    background: url(../images/icons-spite.png) -240px -207px no-repeat
+    width: 109px
+    height: 95px
+    margin: -19px auto 19px
+.plane-ic::before
+    content: ""
+    display: block
+    background: url(../images/icons-spite.png) -10px -10px no-repeat
+    width: 109px
+    height: 95px
+    margin: 0 auto
